@@ -14,7 +14,7 @@ function writeRequest(){
     if(isFinite(userScoreInt)){
         //create the get message over AJAX
         const str = "?name="+userName
-            +  "&age="+userScoreInt;
+            +  "&score="+userScoreInt;
         xhttp.open("GET", "https://rishamjo.space/nodesql/write"+str,true);
         xhttp.send();
         //update on our request
