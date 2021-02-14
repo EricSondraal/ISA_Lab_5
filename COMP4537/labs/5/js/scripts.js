@@ -42,7 +42,7 @@ function readRequest(){
         if((this.readyState==4)&&(this.status==200)){
             //convert string to json object
             let serverResponce = JSON.parse(this.responseText);
-
+			console.log(serverResponce);
             //display the json object on the page
             let dbHtml = "";
             for (let key in serverResponce) {
