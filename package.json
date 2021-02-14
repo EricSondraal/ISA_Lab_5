@@ -1,0 +1,16 @@
+{
+  "name": "isa_lab_5",
+  "description": "Internet Software Architecture",
+  "version": "1.0.0",
+  "main": "COMP4537/labs/5/readDB.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricSondraal/ISA_Lab_5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricSondraal/ISA_Lab_5/issues"
+  },
+  "homepage": "https://github.com/EricSondraal/ISA_Lab_5#readme"
+}
