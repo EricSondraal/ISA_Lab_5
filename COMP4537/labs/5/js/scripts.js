@@ -15,7 +15,7 @@ function writeRequest(){
         //create the get message over AJAX
         const str = "?name="+userName
             +  "&age="+userScoreInt;
-        xhttp.open("GET", "https://rishamjo.space/COMP4537/labs/5/readFile/writeDB.html"+str,true);
+        xhttp.open("GET", "https://rishamjo.space/nodesql/write"+str,true);
         xhttp.send();
         //update on our request
         xhttp.onreadystatechange = function(){
@@ -34,7 +34,7 @@ function readRequest(){
     const xhttp= new XMLHttpRequest();
 
     //create the get message over AJAX
-    xhttp.open("GET", "https://rishamjo.space/COMP4537/labs/5/readFile/readDB.html",true);
+    xhttp.open("GET", "https://rishamjo.space/nodesql/read",true);
     xhttp.send();
     //update on our request
     xhttp.onreadystatechange = function(){
