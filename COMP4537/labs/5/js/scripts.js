@@ -46,7 +46,7 @@ function readRequest(){
             //display the json object on the page
             let dbHtml = "";
             for (let key in serverResponce[0]) {
-                dbHtml += "<div>"+serverResponce['name'] + ":" + serverResponce['score']+"</div>";
+                dbHtml += "<div>"+key['name'] + ":" + key['score']+"</div>";
             }
 
 
